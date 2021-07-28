@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:si="http://soapinterop.org/xsd" xmlns:tns="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" xmlns:typens="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+    <soap:Body>
+        <tns:LatLonListZipCode>
+            <Envelope>
+                <Env>
+                    <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+                    <xmlns:tem>http://tempuri.org/</xmlns:tem>
+                    <xmlns:pet>http://schemas.datacontract.org/2004/07/PetAPI.Core.API.Request</xmlns:pet>
+                    <xmlns:pet1>http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Customer</xmlns:pet1>
+                    <xmlns:arr>http://schemas.microsoft.com/2003/10/Serialization/Arrays</xmlns:arr>
+                    <xmlns:pet2>http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Quote</xmlns:pet2>
+                    <xmlns:pet3>http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Pet</xmlns:pet3>
+                    <xmlns:pet4>http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Policy</xmlns:pet4>
+                    <xmlns:pet5>http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Underwriting</xmlns:pet5>
+                </Env>
+                <Header></Header>
+                <Body>
+                    <GetQuoteValues>
+                        <request>
+                            <BrandingId>######</BrandingId>
+                            <Password>######</Password>
+                            <Username>######</Username>
+                            <AggregatorID>883090D15A14DF002046BB61F6DD9598</AggregatorID>
+                            <CustomerInfo>
+                                <Address1>1 Red Street</Address1>
+                                <Address2>Gee Cross</Address2>
+                                <County>Cheshire</County>
+                                <DateOfBirth>1980-03-22T08:40:28+00:00</DateOfBirth>
+                                <DoNotEmail>false</DoNotEmail>
+                                <DoNotPhone>true</DoNotPhone>
+                                <DoNotPost>false</DoNotPost>
+                                <DoNotSms>true</DoNotSms>
+                                <Email>Andrew.Hodkinson@aquarium-software.com</Email>
+                                <FirstName>Cliff</FirstName>
+                                <HomePhone>07879777064</HomePhone>
+                                <LastName>Challenger</LastName>
+                                <MarketingPreferenceId>5144</MarketingPreferenceId>
+                                <Postcode>WA14 1HF</Postcode>
+                                <TitleId>3</TitleId>
+                                <TownCity>Altrincham</TownCity>
+                            </CustomerInfo>
+                            <PetQuotes>
+                                <PetQuote>
+                                    <PetInfo>
+                                        <BirthDate>2014-09-01T08:40:28+00:00</BirthDate>
+                                        <BreedId>156635</BreedId>
+                                        <Gender>M</Gender>
+                                        <HasMicrochip>true</HasMicrochip>
+                                        <IsNeutered>true</IsNeutered>
+                                        <MicrochipNo>123456</MicrochipNo>
+                                        <PetName>Nelson</PetName>
+                                        <PurchasePrice>250</PurchasePrice>
+                                        <SpeciesId>42989</SpeciesId>
+                                    </PetInfo>
+                                    <StartDate>2019-08-28T08:40:28+00:00</StartDate>
+                                </PetQuote>
+                            </PetQuotes>
+                        </request>
+                    </GetQuoteValues>
+                </Body>
+            </Envelope>
+        </tns:LatLonListZipCode>
+    </soap:Body>
+</soap:Envelope>

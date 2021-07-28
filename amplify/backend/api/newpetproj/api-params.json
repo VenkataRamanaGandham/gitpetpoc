@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/getQuotes",
+      "lambdaFunction": "getQuotes",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/getQuotes"
+    }
+  ],
+  "resourceName": "newpetproj",
+  "apiName": "newpetproj",
+  "functionArns": [
+    {
+      "lambdaFunction": "getQuotes"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-newpetproj-dev-123556-authRole",
+    "unAuthRoleName": "amplify-newpetproj-dev-123556-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "getQuotes",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

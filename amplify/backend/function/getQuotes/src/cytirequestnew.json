@@ -1,0 +1,60 @@
+{
+    "Envelope": {
+        "Env": {
+            "xmlns:soapenv": "http://schemas.xmlsoap.org/soap/envelope/",
+            "xmlns:tem": "http://tempuri.org/",
+            "xmlns:pet": "http://schemas.datacontract.org/2004/07/PetAPI.Core.API.Request",
+            "xmlns:pet1": "http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Customer",
+            "xmlns:arr": "http://schemas.microsoft.com/2003/10/Serialization/Arrays",
+            "xmlns:pet2": "http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Quote",
+            "xmlns:pet3": "http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Pet",
+            "xmlns:pet4": "http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Policy",
+            "xmlns:pet5": "http://schemas.datacontract.org/2004/07/PetAPI.Core.Models.Underwriting"
+        },
+        "Header": "",
+        "Body": {
+            "GetQuoteValues": {
+                "request": {
+                    "BrandingId": "######",
+                    "Password": "######",
+                    "Username": "######",
+                    "AggregatorID": "883090D15A14DF002046BB61F6DD9598",
+                    "CustomerInfo": {
+                        "Address1": "1 Red Street",
+                        "Address2": "Gee Cross",
+                        "County": "Cheshire",
+                        "DateOfBirth": "1980-03-22T08:40:28+00:00",
+                        "DoNotEmail": "false",
+                        "DoNotPhone": "true",
+                        "DoNotPost": "false",
+                        "DoNotSms": "true",
+                        "Email": "Andrew.Hodkinson@aquarium-software.com",
+                        "FirstName": "Cliff",
+                        "HomePhone": "07879777064",
+                        "LastName": "Challenger",
+                        "MarketingPreferenceId": "5144",
+                        "Postcode": "WA14 1HF",
+                        "TitleId": "3",
+                        "TownCity": "Altrincham"
+                    },
+                    "PetQuotes": {
+                        "PetQuote": {
+                            "PetInfo": {
+                                "BirthDate": "2014-09-01T08:40:28+00:00",
+                                "BreedId": "156635",
+                                "Gender": "M",
+                                "HasMicrochip": "true",
+                                "IsNeutered": "true",
+                                "MicrochipNo": "123456",
+                                "PetName": "Nelson",
+                                "PurchasePrice": "250",
+                                "SpeciesId": "42989"
+                            },
+                            "StartDate": "2019-08-28T08:40:28+00:00"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
